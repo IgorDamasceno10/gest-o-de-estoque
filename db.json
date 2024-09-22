@@ -1,0 +1,52 @@
+{
+  "produtos": [
+    {
+      "id": "1",
+      "nome": "Produto X",
+      "quantidade": 150,
+      "preco": 60
+    },
+    {
+      "id": "2",
+      "nome": "Produto Y",
+      "quantidade": 80,
+      "preco": 120
+    },
+    {
+      "id": "3",
+      "nome": "Produto Z",
+      "quantidade": 250,
+      "preco": 30
+    },
+    {
+      "id": "fa2e",
+      "nome": "agua",
+      "quantidade": 2,
+      "preco": 5
+    },
+    {
+      "id": "0",
+      "nome": "agua",
+      "quantidade": 2,
+      "preco": 5
+    },
+    {
+      "id": "0",
+      "nome": "salgadinho",
+      "quantidade": 1,
+      "preco": 6
+    },
+    {
+      "id": "0",
+      "nome": "refri",
+      "quantidade": 1,
+      "preco": 11
+    },
+    {
+      "id": 0,
+      "nome": "queijo",
+      "quantidade": 3,
+      "preco": 23
+    }
+  ]
+}

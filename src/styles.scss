@@ -1,1 +1,136 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.titulo {
+  font-size: 24px; /* Tamanho ajustado */
+  font-weight: 500; /* Peso médio */
+  text-align: center;
+  margin: 30px 0; /* Espaçamento ajustado */
+  color: #4a4a4a; /* Cor suave */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  letter-spacing: 0.5px; /* Espaçamento entre letras */
+  font-family: 'Poppins', sans-serif; /* Fonte moderna */
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #ff7b00e0; /* Cor de fundo */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 15px 30px;
+
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .navbar-brand {
+      color: white;
+      text-decoration: none;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .navbar-links {
+      a {
+        color: white;
+        margin-left: 20px;
+        text-decoration: none;
+
+        &.active {
+          text-decoration: underline; /* Estilo para o link ativo */
+        }
+
+        &:hover {
+          text-decoration: underline; /* Estilo ao passar o mouse */
+        }
+      }
+    }
+  }
+}
+
+/* Card styles for products */
+.card_produto {
+  background-color: #ffffff; /* Cor de fundo do card */
+  border-radius: 10px; /* Bordas arredondadas */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Sombra mais acentuada */
+  padding: 25px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 320px;
+  transition: transform 0.3s ease-in-out;
+
+  &:hover {
+    transform: translateY(-8px); /* Efeito de hover mais acentuado */
+  }
+
+  .card_texto {
+    text-align: center;
+
+    .titulo {
+      font-size: 26px;
+      font-weight: bold;
+      margin-bottom: 12px;
+      color: #333;
+    }
+
+    .quantidade {
+      font-size: 20px;
+      margin-bottom: 10px;
+      color: #555;
+    }
+
+    .preco {
+      font-size: 22px;
+      font-weight: bold;
+      color: #ff4081; /* Cor de destaque para o preço */
+    }
+  }
+}
+
+/* Form styles */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h2 {
+    color: #6200ea;
+    margin-bottom: 20px;
+  }
+
+  button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ff7b00e0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #ff7b00e0;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+

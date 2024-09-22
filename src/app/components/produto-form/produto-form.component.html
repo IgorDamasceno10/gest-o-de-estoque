@@ -1,0 +1,22 @@
+
+<!-- produto-form.component.html -->
+<form (ngSubmit)="adicionarProduto()">
+  <!-- Remova ou comente a linha abaixo -->
+  <!-- <h2>Adicionar Novo Produto</h2> -->
+  <label>
+    Nome:
+    <input type="text" [(ngModel)]="produto.nome" name="nome" required>
+  </label>
+  <label>
+    Quantidade:
+    <input type="number" [(ngModel)]="produto.quantidade" name="quantidade" required>
+  </label>
+  <label>
+    Preço:
+    <input type="number" [(ngModel)]="produto.preco" name="preco" required>
+  </label>
+  <button type="submit">Cadastrar Produto</button>
+</form>
+
+
+  

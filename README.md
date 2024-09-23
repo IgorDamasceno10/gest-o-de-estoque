@@ -1,27 +1,69 @@
-# GerenciadorEstoque
+Sistema de Gestão de Estoque
+Este projeto é um sistema de gerenciamento de estoque desenvolvido com Angular. Ele permite que os usuários visualizem e adicionem produtos ao estoque de forma simples e eficiente.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.5.
+Tecnologias Utilizadas
+Angular: Framework utilizado para criar a aplicação web.
+TypeScript: Linguagem de programação utilizada no desenvolvimento.
+json-server: Usado para simular uma API RESTful para persistência de dados.
+Funcionalidades
+Listagem de Produtos: Exibe todos os produtos disponíveis no estoque.
+Cadastro de Produtos: Permite adicionar novos produtos com informações como nome, quantidade e preço.
+Design Responsivo: Interface otimizada para diferentes tamanhos de tela.
+Instalação
+Clone o repositório:
 
-## Development server
+bash
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+git clone https://seu-repositorio.git
+Navegue até o diretório do projeto:
 
-## Code scaffolding
+bash
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+cd nome-do-projeto
+Instale as dependências:
 
-## Build
+bash
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+npm install
+Inicie o json-server:
 
-## Running unit tests
+Para simular uma API, certifique-se de ter o json-server instalado globalmente. Se não tiver, instale-o com:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+bash
 
-## Running end-to-end tests
+npm install -g json-server
+Depois, inicie o servidor com:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+bash
 
-## Further help
+json-server --watch db.json
+Inicie a aplicação Angular:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+bash
+
+ng serve
+Acesse a aplicação:
+
+Abra o navegador e vá para http://localhost:4200.
+
+Uso
+Na página inicial, você verá a lista de produtos disponíveis.
+Para adicionar um novo produto, preencha o formulário com os detalhes e clique em "Cadastrar Produto".
+Os produtos adicionados aparecerão automaticamente na lista.
+Melhorias Futuras
+Implementar a funcionalidade de exclusão de produtos.
+Adicionar validações de formulário para entradas do usuário.
+Melhorar a estética e responsividade da interface.
+Contribuições
+Contribuições são bem-vindas! Se você deseja contribuir para o projeto, sinta-se à vontade para abrir uma issue ou enviar um pull request.
+
+Licença
+Este projeto é licenciado sob a MIT License. Veja o arquivo LICENSE para mais detalhes.
+
+Sinta-se à vontade para personalizar conforme necessário!
+
+
+
+
+
+

@@ -1,4 +1,5 @@
-Sistema de Gestão de Estoque
+##Sistema de Gestão de Estoque##
+
 Este projeto é um sistema de gerenciamento de estoque desenvolvido com Angular. Ele permite que os usuários visualizem e adicionem produtos ao estoque de forma simples e eficiente.
 
 Tecnologias Utilizadas
